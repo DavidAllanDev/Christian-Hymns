@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `ChristianHymnCategory` (
+  `Code` int(5) NOT NULL AUTO_INCREMENT,
+  `Category` varchar(80) DEFAULT NULL,
+  PRIMARY KEY (`Code`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
